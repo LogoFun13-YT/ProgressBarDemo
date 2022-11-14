@@ -3,7 +3,12 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.4.33103.184
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProgressBarDemo", "ProgressBarDemo\ProgressBarDemo.csproj", "{B9EFEC15-33BD-4254-BB1B-611E75048F4C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ProgressBarDemo", "ProgressBarDemo\ProgressBarDemo.csproj", "{B9EFEC15-33BD-4254-BB1B-611E75048F4C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{60B00B60-8FCB-418D-851E-F6E442B7AFDA}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
