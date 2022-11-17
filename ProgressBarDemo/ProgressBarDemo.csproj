@@ -19,6 +19,7 @@ This program requires .NET 6.0 Desktop Runtime and a operating system running Wi
     <RepositoryType>git</RepositoryType>
     <PackageReadmeFile>README.md</PackageReadmeFile>
     <PackageReleaseNotes>Inital release.</PackageReleaseNotes>
+    <Version>1.0.1</Version>
   </PropertyGroup>
 
   <ItemGroup>
