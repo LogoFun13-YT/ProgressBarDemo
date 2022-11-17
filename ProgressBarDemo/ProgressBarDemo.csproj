@@ -12,7 +12,7 @@
     <Authors>LogoFun13</Authors>
     <Description>A simple program with a progress bar that you can adjust using the slider.
 
-This program requires .NET 6.0 and a operating system running Windows 7, Windows 8, Windows 8.1, WIndows 10 or WIndows 11. There is no RAM or CPU requirements.</Description>
+This program requires .NET 6.0 Desktop Runtime and a operating system running Windows 7, Windows 8, Windows 8.1, WIndows 10 or WIndows 11. There is no RAM or CPU requirements.</Description>
     <Copyright>© 2022 LogoFun13 Corporation. All rights reserved. This project is open-source.</Copyright>
     <PackageIcon>BAT.png</PackageIcon>
     <RepositoryUrl>https://github.com/LogoFun13-YT/ProgressBarDemo</RepositoryUrl>
