@@ -14,14 +14,7 @@ namespace ProgressBarDemo
 
         private void LinkLabel1_LinkClicked(object sender, System.Windows.Forms.LinkLabelLinkClickedEventArgs e)
         {
-            try
-            {
-                VisitLink();
-            }
-            catch (Exception ex)
-            {
-                MessageBox.Show($"An error occured while trying to open the link.\r\n\r\nIf this is the first time you are seeing this error, try clicking on the link again.\r\n\r\nIf you continue to keep getting this message, try one of the following options:\r\n* If the program is running in a partial-trust environment (like on a shared drive), the JIT compiler will fail upon calling the VisitLink method. If that is the case, copy the program to a local drive, and run the program from that drive.\r\n* Check your system or anti-virus settings to make sure that your internet browser isn't blocked. If it is, remove or white-list that program.\r\n* If all else fails, open the following URL in your internet browser:\r\n      github.com/LogoFun13-YT/ProgressBarDemo\r\n\r\nError details: {ex}", "Something unexpected happened", MessageBoxButtons.OK, MessageBoxIcon.Error);
-            }
+            MessageBox.Show($"Visit the project online:\r\n https://github.com/LogoFun13-YT/ProgressBarDemo\r\nYou can then fork the project and make your own changes to it!\r\n\r\n\r\nPlease note: You will need Visual Studio to edit and build the forked project, you can get it from Microsoft through this URL: https://visualstudio.microsoft.com/downloads/", "Visit the Project", MessageBoxButtons.OK, MessageBoxIcon.Information);
         }
 
         private void Button2_Click(object sender, EventArgs e)

@@ -57,6 +57,7 @@
             this.trackBar1.Size = new System.Drawing.Size(660, 45);
             this.trackBar1.TabIndex = 1;
             this.trackBar1.TickFrequency = 25;
+            this.trackBar1.TickStyle = System.Windows.Forms.TickStyle.Both;
             this.trackBar1.Value = 15;
             // 
             // button1
@@ -86,7 +87,7 @@
             this.linkLabel1.LinkColor = System.Drawing.Color.Blue;
             this.linkLabel1.Location = new System.Drawing.Point(12, 108);
             this.linkLabel1.Name = "linkLabel1";
-            this.linkLabel1.Size = new System.Drawing.Size(403, 19);
+            this.linkLabel1.Size = new System.Drawing.Size(404, 23);
             this.linkLabel1.TabIndex = 3;
             this.linkLabel1.TabStop = true;
             this.linkLabel1.Text = "Want to edit this? It\'s open sourced, so put a fork in it! (Fork it on Github)";
@@ -108,7 +109,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(684, 131);
+            this.ClientSize = new System.Drawing.Size(684, 137);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.linkLabel1);
@@ -127,9 +128,16 @@
 
         }
 
+        #endregion
+
+        #region Custom Code Section
+
+        /// <summary>
+        ///  Code needed for usage for this program.
+        /// </summary>
         private void UpdateProgressBar()
         {
-            /// Name of function: UpdateProgressBar()
+            /// Function Name: UpdateProgressBar()
             /// Author: LogoFun13-YT
             /// Description: Updates the current progress bar value
             /// by taking the value that is stored in the trackbar
@@ -142,17 +150,8 @@
             this.progressBar1.Value = this.trackBar1.Value;
         }
 
-        private void VisitLink()
-        {
-            // Change the color of the link text by setting LinkVisited
-            // to true.
-            // linkLabel1.LinkVisited = true;
-            //Call the Process.Start method to open the default browser
-            //with a URL:
-            System.Diagnostics.Process.Start("https://github.com/LogoFun13-YT/ProgressBarDemo");
-        }
-
         #endregion
+
         private ProgressBar progressBar1;
         private Button button1;
         private TrackBar trackBar1;

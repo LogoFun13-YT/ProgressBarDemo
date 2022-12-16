@@ -38,7 +38,7 @@ This program requires .NET 6.0 Desktop Runtime and a operating system running Wi
   </ItemGroup>
 
   <ItemGroup>
-    <None Include="..\..\..\..\Downloads\windows_xp_high_resolution_icon_pack_by_marchmountain_df5dz6t\Windows XP High Resolution Icon Pack\Windows XP Icons\BAT.png">
+    <None Include=".\BAT.png">
       <Pack>True</Pack>
       <PackagePath>\</PackagePath>
     </None>
