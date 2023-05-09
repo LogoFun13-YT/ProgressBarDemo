@@ -12,6 +12,7 @@ So, how did I get the idea for this project? Well, sometimes I think that people
 
 ## System Requirements
 Operating System: Windows 7, 8, 8.1, 10 or 11
+
 .NET Version: Version 6 Desktop runtime
 
 ## License
